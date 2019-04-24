@@ -12,9 +12,5 @@
   "newtab": "newtab.html"
 },
  "permissions": ["activeTab"],
- "content_scripts": [{
-    "css": ["style.css"],
-    "js": ["content.js"],
- }],
  "content_security_policy": "script-src 'self' 'unsafe-inline' https://*.googleapis.com;"
 }
