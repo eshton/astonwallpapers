@@ -77,6 +77,13 @@ var quotes = [
 {
 	text: "He who asks a question is a fool for five minutes; he who does not ask a question remains a fool forever.",
 	subtext: "Chinese Proverb"
+},
+{
+	text: "In oneself lies the whole world and if you know how to look and learn, the door is there and the key is in your hand. Nobody on earth can give you either the key or the door to open, except yourself.",
+	subtext: "Jiddu Krishnamurti"
+}, {
+	text: "Be more concerned with your character than your reputation, because your character is what you really are, while your reputation is merely what others think you are.",
+	subtext: "John Wooden"
 }
 ]
 
