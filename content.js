@@ -84,6 +84,10 @@ var quotes = [
 }, {
 	text: "Be more concerned with your character than your reputation, because your character is what you really are, while your reputation is merely what others think you are.",
 	subtext: "John Wooden"
+},
+{
+	text: "We can easily forgive a child who is afraid of the dark; the real tragedy of life is when men are afraid of the light.",
+	subtext: "Plato"
 }
 ]
 
