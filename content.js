@@ -22,7 +22,7 @@ var images = [
 	'https://images.pexels.com/photos/147411/italy-mountains-dawn-daybreak-147411.jpeg?cs=srgb&dl=boathouse-cottage-dock-147411.jpg&fm=jpg',
 	'https://images.pexels.com/photos/247478/pexels-photo-247478.jpeg?cs=srgb&dl=clouds-cloudy-conifers-247478.jpg&fm=jpg',
 	'https://images.pexels.com/photos/248771/pexels-photo-248771.jpeg?cs=srgb&dl=architecture-blue-sky-cliff-248771.jpg&fm=jpg',
-	'https://images.pexels.com/photos/206359/pexels-photo-206359.jpeg?cs=srgb&dl=beautiful-calm-clouds-206359.jpg&fm=jpg',	
+	'https://images.pexels.com/photos/206359/pexels-photo-206359.jpeg?cs=srgb&dl=beautiful-calm-clouds-206359.jpg&fm=jpg',
 	'https://live.staticflickr.com/1923/45272752942_a41bdfee9b_o.jpg',
 	'https://live.staticflickr.com/1964/31447357528_82b199c983_o.jpg',
 	'https://live.staticflickr.com/1962/31447358118_fa0a9299fe_o.jpg',
@@ -42,59 +42,63 @@ var images = [
 ];
 
 var quotes = [
-{
-	text: "A calm and modest life brings more happiness than the pursuit of success combined with constant restlessness.",
-	subtext: "Albert Einstein, 1922."
-},
-{
-	text: "You can’t connect the dots looking forward; you can only connect them looking backwards. So you have to trust that the dots will somehow connect in your future. You have to trust in something — your gut, destiny, life, karma, whatever. This approach has never let me down, and it has made all the difference in my life.",
-	subtext: "Steve Jobs, 2005"
-},
-{
-	text: "For the past 33 years, I have looked in the mirror every morning and asked myself: 'If today were the last day of my life, would I want to do what I am about to do today?' And whenever the answer has been 'No' for too many days in a row, I know I need to change something.",
-	subtext: "Steve Jobs"
-},
-{
-	text: "Missing somebody? ... Call<br/>Wanna meet up? ... Invite<br/>Wanna be understood? ... Explain<br/>Have questions? ... Ask<br/>Don't like something? ...Say it<br/>Like something? ...State it<br/>Want something? ... Ask for it<br/>Love someone? ... Tell it<br/> We just have one life, keep it simple!",
-	subtext: "Anonymous"
-},
-{
-	text: "A journey of a thousand miles begins with a single step.",
-	subtext: "Lao Tzu"
-},
-{
-	text: "Be not afraid of growing slowly; Be afraid only of standing still.",
-	subtext: "Chinese Proverb"
-},
-{
-	text: "He who returns from a journey is not the same as he who left.",
-	subtext: "Chinese Proverb"
-},
-{
-	text: "Your teacher can open the door but you must enter by yourself.",
-	subtext: "Chinese Proverb"
-},
-{
-	text: "He who asks a question is a fool for five minutes; he who does not ask a question remains a fool forever.",
-	subtext: "Chinese Proverb"
-},
-{
-	text: "In oneself lies the whole world and if you know how to look and learn, the door is there and the key is in your hand. Nobody on earth can give you either the key or the door to open, except yourself.",
-	subtext: "Jiddu Krishnamurti"
-}, {
-	text: "Be more concerned with your character than your reputation, because your character is what you really are, while your reputation is merely what others think you are.",
-	subtext: "John Wooden"
-},
-{
-	text: "We can easily forgive a child who is afraid of the dark; the real tragedy of life is when men are afraid of the light.",
-	subtext: "Plato"
-}
+	{
+		text: "A calm and modest life brings more happiness than the pursuit of success combined with constant restlessness.",
+		subtext: "Albert Einstein, 1922."
+	},
+	{
+		text: "You can’t connect the dots looking forward; you can only connect them looking backwards. So you have to trust that the dots will somehow connect in your future. You have to trust in something — your gut, destiny, life, karma, whatever. This approach has never let me down, and it has made all the difference in my life.",
+		subtext: "Steve Jobs, 2005"
+	},
+	{
+		text: "For the past 33 years, I have looked in the mirror every morning and asked myself: 'If today were the last day of my life, would I want to do what I am about to do today?' And whenever the answer has been 'No' for too many days in a row, I know I need to change something.",
+		subtext: "Steve Jobs"
+	},
+	{
+		text: "Missing somebody? ... Call<br/>Wanna meet up? ... Invite<br/>Wanna be understood? ... Explain<br/>Have questions? ... Ask<br/>Don't like something? ...Say it<br/>Like something? ...State it<br/>Want something? ... Ask for it<br/>Love someone? ... Tell it<br/> We just have one life, keep it simple!",
+		subtext: "Anonymous"
+	},
+	{
+		text: "A journey of a thousand miles begins with a single step.",
+		subtext: "Lao Tzu"
+	},
+	{
+		text: "Be not afraid of growing slowly; Be afraid only of standing still.",
+		subtext: "Chinese Proverb"
+	},
+	{
+		text: "He who returns from a journey is not the same as he who left.",
+		subtext: "Chinese Proverb"
+	},
+	{
+		text: "Your teacher can open the door but you must enter by yourself.",
+		subtext: "Chinese Proverb"
+	},
+	{
+		text: "He who asks a question is a fool for five minutes; he who does not ask a question remains a fool forever.",
+		subtext: "Chinese Proverb"
+	},
+	{
+		text: "In oneself lies the whole world and if you know how to look and learn, the door is there and the key is in your hand. Nobody on earth can give you either the key or the door to open, except yourself.",
+		subtext: "Jiddu Krishnamurti"
+	}, {
+		text: "Be more concerned with your character than your reputation, because your character is what you really are, while your reputation is merely what others think you are.",
+		subtext: "John Wooden"
+	},
+	{
+		text: "We can easily forgive a child who is afraid of the dark; the real tragedy of life is when men are afraid of the light.",
+		subtext: "Plato"
+	},
+	{
+		text: "Success is not final, failure is not fatal: it is the courage to continue that counts.",
+		subtext: "(not) Winston Churchill"
+	}
 ]
 
 function getRandomInt(min, max) {
-    min = Math.ceil(min);
-    max = Math.floor(max);
-    return Math.floor(Math.random() * (max - min + 1)) + min;
+	min = Math.ceil(min);
+	max = Math.floor(max);
+	return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
 function changeBackground() {
@@ -111,7 +115,7 @@ function setQuote() {
 	$('#subtext').html(quotes[num].subtext);
 }
 
-$(document).ready(function(){
+$(document).ready(function () {
 	changeBackground();
 	setQuote();
 });
